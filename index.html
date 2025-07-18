@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <style>
+        .container-fluid{
+            background-color: #141414;
+            width: 100%;
+            height: 1000px;
+            margin: 0px;
+            position: relative;
+        }
+        .header{
+            background-color: #1f1f1f;
+            position: relative;
+            width: 50vh;
+            height: 80vh;
+            margin:  auto;
+            top:10vh;
+            display: flex;
+            justify-content: center;
+            
+        }
+        #img-frame{
+            width: 10vh;
+            height: 10vh;
+            background-color:#1f1f1f;
+            position: absolute;
+            top: 5vh;
+            border-radius: 50px;
+        }
+        #img{
+            position: absolute;
+            width: 10vh;
+            height: 10vh;
+            border-radius: 50px;
+
+        }
+        .main-content{
+            width: 100%;
+            height: 10vh;
+            position: absolute;
+            top: 15vh;
+            color: white;
+            margin-top: 2vh;
+            
+        }
+        .main-content> h1 ,h3{
+            text-align: center;
+            font-size:20px;
+        }
+        .main-content > h3{
+            font-size: 9;
+            height: auto;
+            color: #9ec02e;
+            
+        }
+        .main-content > p{
+            margin-top: 3vh;
+            text-align: center;
+        }  
+        .grid{
+            width: 100%;
+            height: 50vh; 
+            background-color: #1f1f1f;
+            position: absolute;
+            top: 35vh;
+            
+        } 
+        .row{
+            width: 85%;
+            height: 6vh;
+            background-color: #333333;
+            margin: 0 auto;
+            margin-bottom:3vh;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+           
+        }
+            
+    </style>
+</head>
+   
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div id="img-frame">
+                <img id="img" src="src/mohamed.jpeg" alt="">
+            </div>
+            <div class="main-content">
+                <h1>Mohamed Soheib</h1>
+                <h3>Bordj,Algeria</h3>
+                <p>"Front-end devloper and avid reader."</p>
+            </div>
+            <div class="grid">
+                <div class="row"><a href="https://github.com/" style=" text-decoration: none; text-align: center;color: white;font-size:20px;margin: auto;">Github</a></div>
+                <div class="row"><a href="https://laarafmohamedsoheib.netlify.app/" style="text-decoration: none; text-align: center;color: white;font-size:20px;margin: auto;">Frontend Monitor</a></div>
+                <div class="row"><a  href="https://www.linkedin.com/in/laaraf-mohemed-soheib-12b179261/" style="text-decoration: none; text-align: center;color: white;font-size:20px;margin: auto;">Linkdin</a></div>
+                <div class="row"><a href="https://x.com/" style="text-decoration: none; text-align: center;color: white;font-size:20px;margin: auto;">Twitter</a></div>
+                <div class="row"><a href="https://www.instagram.com/soheib2ms/" style="text-decoration: none; text-align: center;color: white;font-size:20px;margin: auto;">Instagram</a></div>
+            </div>    
+            
+
+        </div>
+        
+
+        </div>
+    </div>
+    
+</body>
+</html>
